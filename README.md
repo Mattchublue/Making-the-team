@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# Making-the-team
+Team profile generator
+
+>>>>>>> 3f07aae9ef7f247c23b35e6cabd159c48a0bbce3
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for my team members and their information
 THEN an HTML file is generated that displays a nicely formatted team roster based on user input
@@ -14,4 +20,9 @@ THEN I am prompted to enter the engineer’s name, ID, email, and GitHub usernam
 WHEN I select the intern option
 THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 WHEN I decide to finish building my team
+<<<<<<< HEAD
 THEN I exit the application, and the HTML is generated
+=======
+THEN I exit the application, and the HTML is generated
+
+>>>>>>> 3f07aae9ef7f247c23b35e6cabd159c48a0bbce3
