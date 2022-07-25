@@ -1,10 +1,9 @@
-const inquirer = require("inquirer");
-const fs = require("fs");
-const Engineer = require("./lib/Engineer");
-const Intern = require("./lib/Intern");
-const Manager = require("./lib/Manager");
-const { identity } = require("rxjs");
-
+import inquirer from "inquirer";
+import fs from "fs";
+import Engineer from "./lib/Engineer.js";
+import Intern from "./lib/Intern.js";
+import Manager from "./lib/Manager.js";
+import Htmlgenerator from "./src/createHtml.js";
 const teamArray =[];
 
 function createMgr() {
@@ -17,7 +16,7 @@ function createMgr() {
         const mgrInstance=new Manager(response.manager-name, response.manager-id, response.manager-email, response.manager-phone)
         teamArray.push(mgrInstance)
 
-        //add new member function here
+        trafficController()
 
     })
 }
@@ -32,7 +31,7 @@ function createEngr() {
         const engrInstance=new Engineer(response.engineer-name, response.engineer-id, response.engineer-email, response.engineer-github)
         teamArray.push(engrInstance)
 
-        //add new member function here
+        trafficController()
         
     })
 }
@@ -47,7 +46,7 @@ function createIntern() {
         const internInstance=new Intern(response.intern-name, response.intern-id, response.intern-email, response.intern-school)
         teamArray.push(internInstance)
 
-        //add new member function here
+        trafficController()
         
     })
 }
@@ -69,3 +68,8 @@ function trafficController () {
         else {buildHtml()}
     })
 }
+
+function buildHtml(){
+fs.writeFileSync("./final/booyah.html", Htmlgenerator(teamArray))
+}
+createMgr()
