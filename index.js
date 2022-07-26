@@ -1,9 +1,9 @@
-import inquirer from "inquirer";
-import fs from "fs";
-import Engineer from "./lib/Engineer.js";
-import Intern from "./lib/Intern.js";
-import Manager from "./lib/Manager.js";
-import Htmlgenerator from "./src/createHtml.js";
+const inquirer= require("inquirer");
+const fs= require("fs");
+const Engineer= require("./lib/Engineer.js")
+const Intern= require("./lib/Intern.js")
+const Manager= require("./lib/Manager.js")
+
 const teamArray =[];
 
 function createMgr() {

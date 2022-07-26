@@ -1,6 +1,6 @@
 {
   "name": "making-the-team",
-  "type": "module",
+  "type": "commonjs",
   "version": "1.0.0",
   "description": "<<<<<<< HEAD ======= # Making-the-team Team profile generator",
   "main": "index.js",
@@ -15,7 +15,6 @@
     "type": "git",
     "url": "git+https://github.com/Mattchublue/Making-the-team.git"
   },
-  
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -23,7 +22,7 @@
   },
   "homepage": "https://github.com/Mattchublue/Making-the-team#readme",
   "dependencies": {
-    "inquirer": "^9.0.0",
+    "inquirer": "^8.2.4",
     "jest": "^28.1.2"
   }
 }
