@@ -5,14 +5,14 @@ test("Creates an employee ", () => {
 
     expect(employee.name).toBe("George");
     expect(employee.id).toBe(666666);
-    expect(employee.email).toBe("George", 666666, "georgelovesserenity@festivus.com")
+    expect(employee.email).toBe("georgelovesserenity@festivus.com");
 });
 
 
 test("Gets name of  employee", () => {
     const employee = new Employee("George", 666666, "georgelovesserenity@festivus.com")
 
-    expect(employee.getName()).toBe("Will");
+    expect(employee.getName()).toBe("George");
 });
 
 
