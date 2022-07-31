@@ -10,8 +10,10 @@ In order to run the tests type NPM run test in the command line, once the tests 
 Application images:<img width="1405" alt="Screen Shot 2022-07-31 at 9 42 34 AM" src="https://user-images.githubusercontent.com/100176161/182034266-4ecd01b3-cd58-45c8-bbc6-49aeeb82362c.png">
 <img width="1533" alt="Screen Shot 2022-07-31 at 9 48 18 AM" src="https://user-images.githubusercontent.com/100176161/182034479-12b0add4-d563-4ee5-be3d-f12abac519d3.png">
 
-Application video link:
+Application video:
+[Untitled_ Jul 31, 2022 9_39 AM (1).webm](https://user-images.githubusercontent.com/100176161/182036028-e913ef78-ad40-4a86-9edc-92f82d8c225a.webm)
 
 https://drive.google.com/file/d/1a_JIST0TxGW-vicXJgx1RA5kNCH7L1bR/view
+[Uploading Untitled_ Jul 31, 2022 9_39 AM (1).webm…]()
 
 Application Author Matthew Whiteman
